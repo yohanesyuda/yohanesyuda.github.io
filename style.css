@@ -2,9 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
+* {
   box-sizing: inherit;
 }
 
@@ -13,18 +11,6 @@ body {
   line-height: 1.5;
   background: #fefefe;
   color: #323232;
-}
-
-img {
-  max-width: 100%;
-}
-
-.icon {
-  fill: currentColor;
-  display: inline-block;
-  font-size: inherit;
-  height: 1em;
-  overflow: visible;
 }
 
 a {
@@ -59,10 +45,12 @@ section:last-child {
 .section-title {
   font-weight: bold;
   font-size: 18px;
+  line-height: 1.2;
 }
 
-img.avatar {
-  width: 130px;
+.time {
+  font-size: 16px;
+  color: rgba(86, 100, 114, 0.7);
 }
 
 .name {
@@ -78,6 +66,10 @@ p .am {
   font-size: 24px;
   font-weight: 400;
   color: #236FB2;
+}
+
+img.avatar {
+  width: 130px;
 }
 
 .container img {
@@ -134,6 +126,10 @@ p .am {
 
 .media i {
   padding-right: 35px;
+}
+
+.media i:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width : 768px) {
