@@ -126,6 +126,16 @@ p .am {
   list-style-type: disc;
 }
 
+/* media */
+
+.media {
+  display: flex;
+}
+
+.media i {
+  padding-right: 35px;
+}
+
 @media only screen and (max-width : 768px) {
   section {
     grid-template-columns: 1fr;
